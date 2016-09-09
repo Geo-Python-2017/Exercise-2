@@ -15,7 +15,7 @@ For each exercise, We will post a link to the assignment (such as `https://class
 
 When you click the link, you will be taken to a web page where you can accept the assignment [1]:
 
- <img src="https://github.com/Python-for-geo-people/Exercise-2/blob/master/img/2_Accept_classroom_invitation.PNG" width="400">
+ <img src="https://github.com/Python-for-geo-people/Exercise-2/blob/master/img/2_Accept_classroom_invitation.PNG" width="700">
  
 When you accept the assignment a copy of it will be made in your personal Github repositories[2], and you will be asked to make changes to the Python code and main document for each assignment. More on that below.
 
