@@ -11,11 +11,11 @@ submit as your answers for the exercises. We will create some template for an as
 - Some "starter" Python code or codes that you need to modify for the assignment
 - Some data files to use with the Python scripts
 
-For each exercise, We will post a link to the assignment (such as https://classroom.github.com/assignment-invitations/a3e02d425c06db7948bcfe7ae78043). 
+For each exercise, We will post a link to the assignment (such as `https://classroom.github.com/assignment-invitations/a3e02d425c06db7948bcfe7ae78043`). 
 
 When you click the link, you will be taken to a web page where you can accept the assignment [1]:
 
- <img src="" width="400">
+ <img src="https://github.com/Python-for-geo-people/Exercise-2/blob/master/img/2_Accept_classroom_invitation.PNG" width="400">
  
 When you accept the assignment a copy of it will be made in your personal Github repositories[2], and you will be asked to make changes to the Python code and main document for each assignment. More on that below.
 
