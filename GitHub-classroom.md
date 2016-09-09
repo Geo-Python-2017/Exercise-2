@@ -13,11 +13,11 @@ submit as your answers for the exercises. We will create some template for an as
 
 For each exercise, We will post a link to the assignment (such as `https://classroom.github.com/assignment-invitations/a3e02d425c06db7948bcfe7ae78043`). 
 
-When you click the link, you will be taken to a web page where you can accept the assignment [1]:
+When you click the link, you will be taken to a web page where you can accept the assignment [1](#note1):
 
 ![Accept GitHub classroom invitation](img/2_Accept_classroom_invitation.PNG)
  
-When you accept the assignment a copy of it will be made in your personal Github repositories[2], and you will be asked to make changes to the Python code and main document for each assignment. More on that below.
+When you accept the assignment a copy of it will be made in your personal Github repositories[2](#note2), and you will be asked to make changes to the Python code and main document for each assignment. More on that below.
 
 ## Working on the assignment
 For most assignments you will be modifying the "starter" Python code that will be provided as part of the files copied to the assignment repository when you accept the assignment. After you get the code working, you will have questions to answer by modifying the main assignment document.
@@ -76,6 +76,6 @@ You start with an `!`, put some simple text (2-4 words) about the image between 
 If your code is working, this should result in your plot popping up in a separate window and when you save the plot it will be at a higher resolution than the equivalent in the IPython console in Spyder. It is always nice to produce the best looking plots you can!
 
 ### Footnotes
-[1]: Note that the first time you accept an assignment you will need to authorize the application on Github. This will not work if you have not verified your email address for your Github account.<br/>
-[2]: A repository on Github is basically like a folder for a given assignment/project.
+<a name='note1'></a>[1]: Note that the first time you accept an assignment you will need to authorize the application on Github. This will not work if you have not verified your email address for your Github account.<br/>
+<a name='note2'></a>[2]: A repository on Github is basically like a folder for a given assignment/project.
 
