@@ -1,6 +1,18 @@
 # Exercise-2
 A repository for the assignment for exercise 2
 
+In the exercise this week we will dive into some basic elements of Python programming language and practice how to use version control with GitHub.
+  
+1. [Log into GitHub](log-in-GitHub.md) 
+2. [Accept the GitHub Classroom invitation](GitHub-classroom.md)
+3.  
+4.  
+
+should be pretty simple and comprises two parts.
+First, you need to go to [GitHub.com](https://www.github.com) and create an account. 
+Second, you need to go through the process of using one of the cloud computers from start to finish. 
+Both tasks are described below, as well as what you need to submit for each task.
+
 ## Things the students should do in this exercise
 1. Download a file from their GitHub repo for Exercise 2, modify and re-upload.
 2. Create a new file and upload it.
