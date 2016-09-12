@@ -6,8 +6,10 @@ The answers to the questions in this week's exercise should be given by modifyin
 
 ## Problem 1 - Making changes to a file in GitHub
 Your first task for this week is to make some modifications to the broken script [`cattreats.py`](cattreats.py) that is included in this week's exercise.
-The script should allow users to find their cat's favorite treat by setting the `SelectedCat` variable.
+The script should allow users to find a cat's favorite treat by setting the `SelectedCat` variable.
 Fix this script so that it works as expected, and don't worry about the case of a user entering a cat name that is not on the list.
+**There are 3 major code problems you must fix to get the code working properly**.
+Commit your changes after each fix.
 
 ## Problem 2 - Creating and uploading a script to GitHub
 Create a script called `days_in_month.py` that allows users to select a month and have the number of days in that month printed to the screen.
