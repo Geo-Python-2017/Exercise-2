@@ -29,15 +29,25 @@ You script should
 These were covered in [this week's lesson](https://github.com/Python-for-geo-people/Diving-into-Python/blob/master/Lesson/python-basic-elements1.md#lists-and-indices).
 
 ## Problem 3 - Answering questions using Markdown
+The last task in this week's exercise is to make some changes to this `README.md` file to provide answers to the following questions.
 
+1. Under the heading for Problem 1 (`## Problem 1`), list the changes you needed to make to the code (in regular English, not Python code) to get it working.
+You are welcome to use a numbered list if you like.
+You can read about how to format numbered lists on the GitHub page about [GitHub-flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
+2. Add a heading for Problem 2 and beneath it list some of the challenges you faced in creating your own Python script from scratch.
+What parts of the code were most difficult to create?
+What things were you able to take from other resources in this week's lesson?
+Any other comments about the difficulties in creating your own script?
+3. Add a heading for Problem 3 and beneath it give your comments about this week's lesson.
 
-## Things the students should do in this exercise
-1. Download a file from their GitHub repo for Exercise 2, modify and re-upload.
-2. Create a new file and upload it.
-3. Modify the existing README.md to add some markdown stuff.
-4. Add an image to the repo and link to it in the README.md file.
-5. Download a zip of the entire repository?
-
+    - What did you like?
+    - What did you dislike?
+    - What would you change?
+4. Lastly, just for fun, add an image of an animal that you like along with a short caption giving its name and anything special you might like to add.
+You can add an image by linking to a website, or by uploading an image to your GitHub repository and linking to that.
+Since we've spoken briefly about software licencing, we suggest that you search for images in a repository that includes licencing information such as [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) or [Pixabay](https://pixabay.com/).
+You are, of course, also welcome to upload your own animal images.
+You can add under the Problem 3 heading.
 
 # Answers
 ## Problem 1
