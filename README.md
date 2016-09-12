@@ -4,14 +4,30 @@ Below you have a series of "problems" in which you will be asked to either downl
 After making you changes, you will need to upload them to GitHub.
 The answers to the questions in this week's exercise should be given by modifying the end of this document in the [section titled Answers](#answers).
 
-**Contents:**
+## Problem 1 - Making changes to a file in GitHub
+Your first task for this week is to make some modifications to the broken script [`cattreats.py`](cattreats.py) that is included in this week's exercise.
+The script should allow users to find their cat's favorite treat by setting the `SelectedCat` variable.
+Fix this script so that it works as expected, and don't worry about the case of a user entering a cat name that is not on the list.
 
+## Problem 2 - Creating and uploading a script to GitHub
+Create a script called `days_in_month.py` that allows users to select a month and have the number of days in that month printed to the screen.
+For example, if the user sets month to "February", the script will display
 
+```
+The number of days in February is 28
+```
+You script should
 
-should be pretty simple and comprises two parts.
-First, you need to go to [GitHub.com](https://www.github.com) and create an account. 
-Second, you need to go through the process of using one of the cloud computers from start to finish. 
-Both tasks are described below, as well as what you need to submit for each task.
+- Display the number of days in a selected month, set by defining the variable `SelectedMonth` near the top of the script.
+- Work for all 12 months in a normal year. You can assume it is not a [leap year](https://en.wikipedia.org/wiki/Leap_year).
+- Use the basic script format described in [this week's lesson](https://github.com/Python-for-geo-people/Diving-into-Python/blob/master/Lesson/writing-scripts.md#writing-our-scripts-the-right-way).
+- Be uploaded to your GitHub repository for this week's lesson with the name `days_in_month.py`.
+
+**Hint**: For this script you will likely need two lists and to use the `.index()` method.
+These were covered in [this week's lesson](https://github.com/Python-for-geo-people/Diving-into-Python/blob/master/Lesson/python-basic-elements1.md#lists-and-indices).
+
+## Problem 3 - Answering questions using Markdown
+
 
 ## Things the students should do in this exercise
 1. Download a file from their GitHub repo for Exercise 2, modify and re-upload.
