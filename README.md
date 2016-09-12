@@ -1,4 +1,4 @@
-# Exercise-2
+# Exercise 2 - Writing scripts and using GitHub
 The exercise for this week is meant to help you better understand data types and lists in Python, and practice saving files to GitHub.
 Below you have a series of "problems" in which you will be asked to either download and modify, or create new script files.
 After making you changes, you will need to upload them to GitHub.
