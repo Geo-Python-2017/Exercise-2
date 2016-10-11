@@ -18,7 +18,7 @@ For example, if the user sets month to "February", the script will display
 ```
 The number of days in February is 28
 ```
-You script should
+Your script should
 
 - Display the number of days in a selected month, set by defining the variable `SelectedMonth` near the top of the script.
 - Work for all 12 months in a normal year. You can assume it is not a [leap year](https://en.wikipedia.org/wiki/Leap_year).
