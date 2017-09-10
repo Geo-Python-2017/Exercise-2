@@ -6,13 +6,20 @@ The answers to the questions in this week's exercise should be given by modifyin
 
 Don't forget to check out the [hints for this week's exercise](https://geo-python.github.io/2017/lessons/L2/exercise-2-hints.html) if you're having trouble.
 
-## Problem 1 - Making changes to a file in GitHub
+Scores on this exercise are out of **20 points**.
+
+## Problem 1 - Making changes to a file in GitHub (*7 points*)
 Your first task for this week is to make some modifications to the broken script [`station_ages.py`](station_ages.py) that is included in this week's exercise.
 The script should allow users to find the age of an [FMI observation station](http://en.ilmatieteenlaitos.fi/observation-stations) by setting the `selectedStation` variable.
-There are **3 major code problems** you must fix to get this script working as expected.
-Don't worry about the case of a user entering a station name that is not on the list, and **commit your changes after each fix**.
+Don't worry about the case of a user entering a station name that is not on the list.
 
-## Problem 2 - Creating and uploading a script to GitHub
+Your score on this problem will be based on
+
+- Fixing **3 major code problems** to get this script working as expected
+- Committing each change separately to GitHub without changing the script filename
+- Listing the changes you needed to make to get the code working in plain English at the end of this file (see [Problem 3](#problem-3) below).
+
+## Problem 2 - Creating and uploading a script to GitHub (*9 points*)
 The table below presents [monthly average temperatures recorded at the Helsinki Malmi airport](https://www.timeanddate.com/weather/finland/helsinki/climate).
 
 | Month     | Temperature [°C] |
@@ -36,17 +43,16 @@ For example, if the user sets month to "March", the script will display
 ```
 The average temperature in Helsinki in March is -1.0
 ```
-Your script should
+Your score on this problem will be based on
 
-- Display the monthly average temperature in a selected month, set by defining the variable `selectedMonth` near the top of the script.
-- Work for all 12 months in the year.
-- Use the basic script format described in [this week's lesson](https://geo-python.github.io/2017/lessons/L2/writing-scripts.html).
-- Be uploaded to your GitHub repository for this week's lesson with the name `average_temps.py`.
+- Having your script display the monthly average temperature in a selected month, set by defining the variable `selectedMonth` near the top of the script.
+- Having it work for all 12 months in the year.
+- Using the basic script format described in [this week's lesson](https://geo-python.github.io/2017/lessons/L2/writing-scripts.html).
+- Including comments that explain what most lines in the code do
+- Uploading your script to your GitHub repository for this week's lesson with the name `average_temps.py`.
+- Your answers to the three questions about the challenges you faced in writing your own script (see [Problem 3](#problem-3) below).
 
-**Hint**: For this script you will likely need two lists and to use the `.index()` method.
-These were covered in [this week's lesson](https://geo-python.github.io/2017/lessons/L2/python-basic-elements.html#the-concept-of-objects).
-
-## Problem 3 - Answering questions using Markdown
+## Problem 3 - Answering questions using Markdown (*4 points*)
 The last task in this week's exercise is to make some changes to this `README.md` file to provide answers to the following questions.
 
 1. Under the heading for Problem 1 (`## Problem 1`), list the changes you needed to make to the code (in regular English, not Python code) to get it working.
@@ -66,6 +72,11 @@ You can add an image by linking to a website, or by uploading an image to your G
 Since we've spoken briefly about software licencing, we suggest that you search for images in a repository that includes licencing information such as [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) or [Pixabay](https://pixabay.com/).
 You are, of course, also welcome to upload your own animal images.
 You can add it under the Problem 3 heading in the answers.
+
+Your score on this problem will be based on
+
+- Your answers to the three questions in part 3 of this problem
+- Posting an image of a favorite animal using Markdown
 
 # Answers
 ## Problem 1
