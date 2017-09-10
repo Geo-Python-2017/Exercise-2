@@ -4,6 +4,8 @@ Below you have a series of "problems" in which you will be asked to solve by eit
 After making you changes, you will need to upload them to GitHub.
 The answers to the questions in this week's exercise should be given by modifying the end of this document in the [section titled Answers](#answers).
 
+Don't forget to check out the [hints for this week's exercise](https://geo-python.github.io/2017/lessons/L2/exercise-2-hints.html) if you're having trouble.
+
 ## Problem 1 - Making changes to a file in GitHub
 Your first task for this week is to make some modifications to the broken script [`station_ages.py`](station_ages.py) that is included in this week's exercise.
 The script should allow users to find the age of an [FMI observation station](http://en.ilmatieteenlaitos.fi/observation-stations) by setting the `selectedStation` variable.
