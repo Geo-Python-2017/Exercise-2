@@ -13,7 +13,7 @@ Your first task for this week is to make some modifications to the broken script
 The script should allow users to find the age of an [FMI observation station](http://en.ilmatieteenlaitos.fi/observation-stations) by setting the `selectedStation` variable.
 Don't worry about the case of a user entering a station name that is not on the list.
 
-Your score on this problem will be based on
+**Your score on this problem will be based on**
 
 - Fixing **3 major code problems** to get this script working as expected
 - Committing each change separately to GitHub without changing the script filename
@@ -23,7 +23,7 @@ Your score on this problem will be based on
 The table below presents [monthly average temperatures recorded at the Helsinki Malmi airport](https://www.timeanddate.com/weather/finland/helsinki/climate).
 
 | Month     | Temperature [°C] |
-| --------- | ---------------- |
+| --------- | :--------------: |
 | January   | -3.5             |
 | February  | -4.5             |
 | March     | -1.0             |
@@ -43,7 +43,7 @@ For example, if the user sets month to "March", the script will display
 ```
 The average temperature in Helsinki in March is -1.0
 ```
-Your score on this problem will be based on
+**Your score on this problem will be based on**
 
 - Having your script display the monthly average temperature in a selected month, set by defining the variable `selectedMonth` near the top of the script.
 - Having it work for all 12 months in the year.
@@ -73,7 +73,7 @@ Since we've spoken briefly about software licencing, we suggest that you search 
 You are, of course, also welcome to upload your own animal images.
 You can add it under the Problem 3 heading in the answers.
 
-Your score on this problem will be based on
+**Your score on this problem will be based on**
 
 - Your answers to the three questions in part 3 of this problem
 - Posting an image of a favorite animal using Markdown
