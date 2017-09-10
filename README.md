@@ -1,32 +1,48 @@
 # Exercise 2 - Writing scripts and using GitHub
 The exercise for this week is meant to help you better understand data types and lists in Python, and practice saving files to GitHub.
-Below you have a series of "problems" in which you will be asked to either download and modify, or create new script files.
+Below you have a series of "problems" in which you will be asked to solve by either downloading and modifying a starter script, or creating a new script file.
 After making you changes, you will need to upload them to GitHub.
 The answers to the questions in this week's exercise should be given by modifying the end of this document in the [section titled Answers](#answers).
 
 ## Problem 1 - Making changes to a file in GitHub
-Your first task for this week is to make some modifications to the broken script [`cattreats.py`](cattreats.py) that is included in this week's exercise.
-The script should allow users to find a cat's favorite treat by setting the `SelectedCat` variable.
-Fix this script so that it works as expected, and don't worry about the case of a user entering a cat name that is not on the list.
-**There are 3 major code problems you must fix to get the code working properly**.
-Commit your changes after each fix.
+Your first task for this week is to make some modifications to the broken script [`station_ages.py`](station_ages.py) that is included in this week's exercise.
+The script should allow users to find the age of an [FMI observation station](http://en.ilmatieteenlaitos.fi/observation-stations) by setting the `selectedStation` variable.
+There are **3 major code problems** you must fix to get this script working as expected.
+Don't worry about the case of a user entering a station name that is not on the list, and **commit your changes after each fix**.
 
 ## Problem 2 - Creating and uploading a script to GitHub
-Create a script called `days_in_month.py` that allows users to select a month and have the number of days in that month printed to the screen.
-For example, if the user sets month to "February", the script will display
+The table below presents [monthly average temperatures recorded at the Helsinki Malmi airport](https://www.timeanddate.com/weather/finland/helsinki/climate).
+
+| Month     | Temperature [°C] |
+| --------- | ---------------- |
+| January   | -3.5             |
+| February  | -4.5             |
+| March     | -1.0             |
+| April     | 4.0              |
+| May       | 10.0             |
+| June      | 15.0             |
+| July      | 18.0             |
+| August    | 16.0             |
+| September | 11.5             |
+| October   | 6.0              |
+| November  | 2.0              |
+| December  | -1.5             |
+
+Create a script called `average_temps.py` that allows users to select a month and have the monthly average temperature printed to the screen.
+For example, if the user sets month to "March", the script will display
 
 ```
-The number of days in February is 28
+The average temperature in Helsinki in March is -1.0
 ```
 Your script should
 
-- Display the number of days in a selected month, set by defining the variable `SelectedMonth` near the top of the script.
-- Work for all 12 months in a normal year. You can assume it is not a [leap year](https://en.wikipedia.org/wiki/Leap_year).
-- Use the basic script format described in [this week's lesson](https://github.com/Python-for-geo-people/Diving-into-Python/blob/master/Lesson/writing-scripts.md#writing-our-scripts-the-right-way).
-- Be uploaded to your GitHub repository for this week's lesson with the name `days_in_month.py`.
+- Display the monthly average temperature in a selected month, set by defining the variable `selectedMonth` near the top of the script.
+- Work for all 12 months in the year.
+- Use the basic script format described in [this week's lesson](https://geo-python.github.io/2017/lessons/L2/writing-scripts.html).
+- Be uploaded to your GitHub repository for this week's lesson with the name `average_temps.py`.
 
 **Hint**: For this script you will likely need two lists and to use the `.index()` method.
-These were covered in [this week's lesson](https://github.com/Python-for-geo-people/Diving-into-Python/blob/master/Lesson/python-basic-elements1.md#lists-and-indices).
+These were covered in [this week's lesson](https://geo-python.github.io/2017/lessons/L2/python-basic-elements.html#the-concept-of-objects).
 
 ## Problem 3 - Answering questions using Markdown
 The last task in this week's exercise is to make some changes to this `README.md` file to provide answers to the following questions.
@@ -47,7 +63,7 @@ Any other comments about the difficulties in creating your own script?
 You can add an image by linking to a website, or by uploading an image to your GitHub repository and linking to that.
 Since we've spoken briefly about software licencing, we suggest that you search for images in a repository that includes licencing information such as [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) or [Pixabay](https://pixabay.com/).
 You are, of course, also welcome to upload your own animal images.
-You can add under the Problem 3 heading.
+You can add it under the Problem 3 heading in the answers.
 
 # Answers
 ## Problem 1

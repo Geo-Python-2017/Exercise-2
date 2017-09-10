@@ -1,27 +1,47 @@
 #!/usr/bin/env python3
-'''cattreats.py
+'''Prints the years since an FMI observation station has begun operation.
 
-This simple script finds the location of a selected cat's name in one list and
-its favorite treat at the corresponding location in another. Both items are
-printed to the screen afterward.
+Description:
+    This script is only a test for a planned version that would read in station
+    information from a file and allow users to get the operational ages of any
+    observation station in the FMI network. Currently, the user should specify
+    the desired station at the start of the script as input and the age is
+    written to the screen as output.
+
+Note:
+    All of the stations in this test version of the script are in Helsinki, so
+    "Helsinki" has been removed from the station name for simplicity.
 
 Limitations:
-This code will not work if the cat's name is not in list of cat names.
+    This code will not work if the station is not in list of station names.
 
-Usage: ./cattreats.py
+Usage:
+    ./station_ages.py
 
-David Whipp - 12.9.2016
+Author:
+    David Whipp - 10.9.2017
+
+Modified by:
+    None
 '''
 
-# Set the selected cat
-SelectedCat = 7
+# Create and fill lists of station names and starting years for observation
+#
+# NOTE: Long lines can be split into multiple lines using the "\" character.
+#       Split lines can be indented freely
+stationNames = ['Harmaja', 'Kaisaniemi', 'Kaivopuisto', 'Kumpula', 'lighthouse', \
+                'Malmi airfield', 'Suomenlinna aaltopoiju', 'Vuosaari harbour']
+stationStartYears = [1989, 1844, 1904, 2005, 2003, 1937, 2016, 2012]
 
-# Create and fill lists of cats and treats
-Cats = ['Garfield', 'Nermal', 'Tom Cat', 'Puss in Boots', 'Hobbes', 'Stimpy', 'Snowball II']
-Treats = ['Lasagne', 'Praise', 'Mice', 'Power', 'Calvin', 'Fresh kitty litter']
+# Set the selected station
+selectedStation = 1
 
-# Find location of selected cat
-CatIndex = Cats.index(SelectedCat)
+# Find location of selected station
+stationIndex = stationNames.index(selectedStation)
 
-# Print cat name and favorit treat on screen
-print("The favorite treat of", SelectedCat, "is", Treats[SelectedCat])
+# Calculate operational years
+stationYears = 2017 - stationStartYears[selectedStation]
+
+# Print station name and number of years of operation on screen
+print("The Helsinki", selectedStation, "station has been operational for", \
+      stationYears, "years.)
