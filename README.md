@@ -84,9 +84,9 @@ This is some text.
 You can use *italics* or **bold** text easily.
 You may want to read a bit more about [formatting text in Github-flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
 
-- I changed the content of selectedStation from number ***1*** to ***kumpula*** (i.e. ***"selectedStation = 1"  to "selectedStation = 'Kumpula')***. This was done because of the next step which reads the position of the station and is able to find its start year afterwards. I could have used station 1(which is Kaisaniemi because the counting starts from 0). However, I tried with another station(Kumpula) to see how it works.
+- I changed the content of selectedStation from number ***1*** to ***kumpula*** (i.e. "selectedStation = 1"  to "selectedStation = 'Kumpula'). This was done because of the next step which reads the position of the station and is able to find its start year afterwards. I could have used station 1(which is Kaisaniemi because the counting starts from 0). However, I tried with another station(Kumpula) to see how it works.***
 
-- I changed the parameter ***selectedStation*** to ***stationIndex*** (i.e. ***"stationYears = "2017 - stationStartYears[selectedStation]" to "stationYears = 2017 - stationStartYears[stationIndex]"***). Because the station Index had already been defined in the line "stationIndex = stationNames.index(selectedStation)), the location would be detected and the starting year can be found thereafter.
+- I changed the parameter ***selectedStation*** to ***stationIndex*** (i.e. "stationYears = "2017 - stationStartYears[selectedStation]" to "stationYears = 2017 - stationStartYears[stationIndex]"). Because the station Index had already been defined in the line "stationIndex = stationNames.index(selectedStation)), the location would be detected and the starting year can be found thereafter.
 
 - Lastly, I removed the opening and closing brackets **(** and **)** in the final print line and also added the quotation sign **"**, at the end of it
 
