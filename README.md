@@ -88,7 +88,7 @@ You may want to read a bit more about [formatting text in Github-flavored Markdo
 
 - I changed the parameter ***selectedStation*** to ***stationIndex*** (i.e. ***"stationYears = "2017 - stationStartYears[selectedStation]"*** to ***"stationYears = 2017 - stationStartYears[stationIndex]")***. Because the station Index had already been defined in the line "stationIndex = stationNames.index(selectedStation)), the location would be detected and the starting year can be found thereafter.
 
--Lastly, I removed the opening and closing brackets **(** and **)** in the final print line and also added the quotation sign **"**, at the end of it
+- Lastly, I removed the opening and closing brackets **(** and **)** in the final print line and also added the quotation sign **"**, at the end of it
 
 # Problem 2
 
