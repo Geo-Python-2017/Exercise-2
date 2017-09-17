@@ -88,7 +88,7 @@ You may want to read a bit more about [formatting text in Github-flavored Markdo
 
 - I changed the parameter ***selectedStation*** to ***stationIndex*** (i.e. ***"stationYears = "2017 - stationStartYears[selectedStation]"*** to ***"stationYears = 2017 - stationStartYears[stationIndex]")***. Because the station Index had already been defined in the line "stationIndex = stationNames.index(selectedStation)), the location would be detected and the starting year can be found thereafter.
 
--Lastly, I removed the opening and closing brackets **(*** and ***)*** in the final print line and also added the quotation sign **"**, at the end of it
+-Lastly, I removed the opening and closing brackets **(** and **)** in the final print line and also added the quotation sign **"**, at the end of it
 
 ##Problem 2
 
@@ -116,9 +116,9 @@ What did you dislike?
 What would you change?
 **I wouldn't change a thing, since this seems to work well for me and I think it's best to work with the logic one flows with easily.**
 
-(https://commons.wikimedia.org/wiki/File:The_Asiatic_Lion.jpg#)
-*Figure 1: The King of the Jungle: Lion*
-CC BY-SA 2.0: Shanthanu Bhardwaj
+![Text in case image does not display](Images/600px-The_Asiatic_Lion.jpg)<br/>
+***Figure 1: The King of the Jungle: Lion***
+*CC BY-SA 2.0: Shanthanu Bhardwaj*
 
 You can see an example of how to display an image with a caption below.
 
