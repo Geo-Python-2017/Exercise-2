@@ -79,7 +79,7 @@ You can add it under the Problem 3 heading in the answers.
 - Posting an image of a favorite animal using Markdown
 
 # Answers
-## Problem 1
+# Problem 1
 This is some text.
 You can use *italics* or **bold** text easily.
 You may want to read a bit more about [formatting text in Github-flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
@@ -90,7 +90,7 @@ You may want to read a bit more about [formatting text in Github-flavored Markdo
 
 -Lastly, I removed the opening and closing brackets **(** and **)** in the final print line and also added the quotation sign **"**, at the end of it
 
-##Problem 2
+# Problem 2
 
 Challenges:
 **It was quite straightforward for me**
@@ -106,7 +106,7 @@ Other comments:
 **-I particularly love the simplicty of python and how the logic is being built up gradually. It appears to be more user friendly and straightforward to me, compared to a language like Java which appears to have some redundancies in its coding.**
 
 
-##Problem 3
+# Problem 3
 **What did you like?
 I love the simplicity, especially over other programming languages. I also like how real life example was adopted and adapted. I figured I could do quite a lot with something that may seem so basic.**
 
@@ -118,7 +118,7 @@ What would you change?
 
 ![Text in case image does not display](Images/600px-The_Asiatic_Lion.jpg)<br/>
 ***Figure 1: The King of the Jungle: Lion***
-*CC BY-SA 2.0: Shanthanu Bhardwaj*
+*CC BY-SA 2.0: Shanthanu Bhardwaj, The Asiatic Lion*
 
 You can see an example of how to display an image with a caption below.
 
