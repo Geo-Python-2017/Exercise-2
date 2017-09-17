@@ -83,6 +83,43 @@ You can add it under the Problem 3 heading in the answers.
 This is some text.
 You can use *italics* or **bold** text easily.
 You may want to read a bit more about [formatting text in Github-flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
+
+- I changed the content of selectedStation from number ***1*** to ***kumpula*** (i.e. ***"selectedStation = 1"***  to ***"selectedStation = 'Kumpula'"***). This was done because of the next step which reads the position of the station and is able to find its start year afterwards. I could have used station 1(which is Kaisaniemi because the counting starts from 0). However, I tried with another station(Kumpula) to see how it works.
+
+- I changed the parameter ***selectedStation*** to ***stationIndex*** (i.e. ***"stationYears = "2017 - stationStartYears[selectedStation]"*** to ***"stationYears = 2017 - stationStartYears[stationIndex]")***. Because the station Index had already been defined in the line "stationIndex = stationNames.index(selectedStation)), the location would be detected and the starting year can be found thereafter.
+
+-Lastly, I removed the opening and closing brackets **(*** and ***)*** in the final print line and also added the quotation sign **"**, at the end of it
+
+##Problem 2
+
+Challenges:
+**It was quite straightforward for me**
+
+Most difficult part:
+**I just followed the logic from the previous script and got it right at the first attempt**
+
+What things were you able to take from other resources in this week's lesson?
+- **Creating of list**
+- **finding location in the list by using the *index* function.**
+**-In short, everything from the lesson and the first exercise guided me and it was quite intuitive, as to what logic to follow in this exercise.**
+Other comments:
+**-I particularly love the simplicty of python and how the logic is being built up gradually. It appears to be more user friendly and straightforward to me, compared to a language like Java which appears to have some redundancies in its coding.**
+
+
+##Problem 3
+**What did you like?
+I love the simplicity, especially over other programming languages. I also like how real life example was adopted and adapted. I figured I could do quite a lot with something that may seem so basic.**
+
+What did you dislike?
+**Nothing really!.**
+
+What would you change?
+**I wouldn't change a thing, since this seems to work well for me and I think it's best to work with the logic one flows with easily.**
+
+(https://commons.wikimedia.org/wiki/File:The_Asiatic_Lion.jpg#)
+*Figure 1: The King of the Jungle: Lion*
+CC BY-SA 2.0: Shanthanu Bhardwaj
+
 You can see an example of how to display an image with a caption below.
 
 ![Text shown if image does not load](Images/green-tree-python.jpg)<br/>
